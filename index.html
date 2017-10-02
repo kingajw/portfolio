@@ -32,34 +32,64 @@
 <!-- Add your site or application content here -->
 
 <div class="main">
-<section>
-    <div class="summary">
-        <p>Hello, my name is Kinga and I am a beginner front-end developer based in Wrocław. Scroll down to see what I can do.</p>
-    </div>
-    <div class="next-section">
-        <a href="#about-1">See more<br>
-            <i class="fa fa-caret-down" aria-hidden="true">
-            </i>
-        </a>
-    </div>
-</section>
-<section>
-    <div class="about about-odd">
-        <img class="count count-odd" src="css/IMG_9794.jpg">
-        <div class="about-text-odd">
-            <h1>WHO I AM</h1>
-            <p>For the last few years I've been working on my PhD thesis on atmospheric chemistry and working as an air quality modelling specialist at the University of Wrocław. It taught me to plan my own projects while also working in a team. Working with a meteorological model and its output data gave me experience with bash scripting, R, vim and a little bit of python 2.7. I enjoy learning new technologies and tools and it comes to me easily.</p>
+    <section id="home">
+        <div class="summary">
+            <p>Hello, my name is Kinga and I am a beginner front-end developer based in Wrocław. Scroll down to see what I can do.</p>
         </div>
-    </div>
-</section>
-<section>
-    <div class="about about-even">
-        <div class="about-text-even">
-            <h1>MY SKILLS</h1>
+        <div class="next-section">
+            <a href="#about-me">See more<br>
+                <i class="fa fa-caret-down" aria-hidden="true">
+                </i>
+            </a>
         </div>
-        <img class="count count-even" src="css/IMG_9798.jpg">
-    </div>
-</section>
+    </section>
+    <section id="about-me">
+        <div class="about about-odd">
+            <div class="about-text-odd">
+                <h1>WHO I AM</h1>
+                <p>For the last few years I've been working on my PhD thesis on atmospheric chemistry and working as an air quality modelling specialist at the University of Wrocław. It taught me to plan my own projects while also working in a team. Working with a meteorological model and its output data gave me experience with bash scripting, R, vim and a little bit of python 2.7. I enjoy learning new technologies and tools and it comes to me easily.</p>
+            </div>
+            <img class="count count-odd" src="css/IMG_9794.jpg">
+        </div>
+    </section>
+    <section id="skills">
+        <div class="about about-even">
+            <img class="count count-even" src="css/IMG_9798.jpg">
+            <div class="about-text-even">
+                <h1>SKILLS</h1>
+            </div>
+            <img class="logo" src="css/html5-css-javascript-logos.png">
+        </div>
+    </section>
+    <section id="projects">
+        <div class="about about-odd">
+            <img class="count count-odd" src="css/IMG_9801.jpg">
+            <div class="about-text-odd">
+                <h1>PROJECTS</h1>
+                <a href="tobefilled" target="_blank"><img class="thumbnail" src="css/under-construction.png"></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="about about-even">
+            <div id="contact-text">
+                <h1>CONTACT ME</h1>
+            </div>
+            <div class="contact-form">
+                <form method="post">
+                    <span class="form-description">Name:</span>
+                    <input type="text" name="name" placeholder="Your name">
+                    <span class="form-description">E-mail:</span>
+                    <input type="text" name="email" placeholder="Your e-mail">
+                    <span class="form-description">Title:</span>
+                    <input type="text" name="title" placeholder="Message title">
+                    <span class="form-description">Message:</span>
+                    <textarea type="text" name="message" placeholder="Type your message here"></textarea>
+                    <button id="send-button">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </div>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>

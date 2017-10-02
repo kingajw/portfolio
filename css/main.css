@@ -151,15 +151,15 @@ a:visited {
 
 .about-odd {
     background-size: cover;
-    background-color: #fff;
-    color: #003;
+    background-color: #003;
+    color: #fff;
     vertical-align: middle;
 }
 
 .about-even {
     background-size: cover;
-    background-color: #003;
-    color: #fff;
+    background-color: #fff;
+    color: #003;
     vertical-align: middle;
 }
 
@@ -169,23 +169,79 @@ a:visited {
 }
 
 .count-odd {
+    margin: 10% 10% 0 0;
+    float: right;
+}
+
+.count-even {
     margin: 10% 10% 0 10%;
     float: left;
 }
 
-.count-even {
-    margin-right: 10%;
-    float: right;
-}
-
 .about-text-odd {
-    padding: 10% 10% 0 0;
+    padding: 10% 0 0 10%;
+    width: 50%;
+    float: left;
 }
 
 .about-text-even {
-    padding: 10% 0 0 10%;
+    padding: 10% 10% 0 0;
 }
 
+.logo {
+    width: 20%;
+    padding: 0 10% 10% 10%;
+}
+
+.thumbnail {
+    width: 20%;
+}
+
+#contact-text {
+    padding: 5% 10% 0 30%;
+}
+
+.contact-form {
+    padding: 1% 0 1% 0;
+}
+
+form {
+    margin: 0 30% 0 30%;
+    border-radius: 10px;
+    background-color: #003;
+    color: #fff;
+}
+
+span, input, textarea, button {
+    width: 50%;
+    margin: 0.25% 25% 0.5% 25%;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.form-description {
+    margin-top: 1%;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+#send-button {
+    color: #fff;
+    background-color: #003;
+    border: #fff solid thin;
+    cursor: pointer;
+    width: 52%;
+}
+
+#send-button:hover {
+    color: #003;
+    background-color: #fff;
+}
 
 /* ==========================================================================
    Helper classes
@@ -210,7 +266,6 @@ a:visited {
 
 .visuallyhidden {
     border: 0;
-    -webkit-clip-path: inset(50%);
     clip-path: inset(50%);
     display: inline-block;
     height: 1px;
@@ -230,7 +285,6 @@ a:visited {
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
-    -webkit-clip-path: none;
     clip-path: none;
     height: auto;
     margin: 0;
