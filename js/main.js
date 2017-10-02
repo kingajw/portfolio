@@ -5,3 +5,7 @@ $(document).ready(function () {
         },700);
     });
 });
+
+$( document ).ready(function() {
+    $(".main").onepage_scroll();
+});

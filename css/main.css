@@ -147,26 +147,44 @@ a:visited {
 .about {
     height: 100vh;
     vertical-align: middle;
-    border: #003;
 }
 
 .about-odd {
     background-size: cover;
-    background-color: #b5c1d1;
+    background-color: #fff;
+    color: #003;
+    vertical-align: middle;
+}
+
+.about-even {
+    background-size: cover;
+    background-color: #003;
+    color: #fff;
+    vertical-align: middle;
 }
 
 .count {
-    margin: 10% 10% 0 10%;
     width: 20%;
     border-radius: 50%;
+}
+
+.count-odd {
+    margin: 10% 10% 0 10%;
     float: left;
 }
 
-.about>p {
-    padding: 10% 5% 0 0;
+.count-even {
+    margin-right: 10%;
+    float: right;
 }
 
+.about-text-odd {
+    padding: 10% 10% 0 0;
+}
 
+.about-text-even {
+    padding: 10% 0 0 10%;
+}
 
 
 /* ==========================================================================

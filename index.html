@@ -13,8 +13,16 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="onepage-scroll-master/onepage-scroll.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Fira+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="onepage-scroll-master/jquery.onepage-scroll.js"></script>
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -22,30 +30,37 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<script src="js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<section id="home">
+
+<div class="main">
+<section>
     <div class="summary">
         <p>Hello, my name is Kinga and I am a beginner front-end developer based in Wrocław. Scroll down to see what I can do.</p>
     </div>
     <div class="next-section">
-        <a href="#about1">See more<br>
+        <a href="#about-1">See more<br>
             <i class="fa fa-caret-down" aria-hidden="true">
             </i>
         </a>
     </div>
 </section>
-<section id="about1">
+<section>
     <div class="about about-odd">
-        <img class="count" src="css/IMG_9794.jpg">
-        <p>For the last few years I've been working on my PhD thesis on atmospheric chemistry and working as an air quality modelling specialist at the University of Wrocław. It taught me to plan my own projects while also working in a team. Working with a meteorological model and its output data gave me experience with bash scripting, R, vim and a little bit of python 2.7. I enjoy learning new technologies and tools and it comes to me easily.</p>
+        <img class="count count-odd" src="css/IMG_9794.jpg">
+        <div class="about-text-odd">
+            <h1>WHO I AM</h1>
+            <p>For the last few years I've been working on my PhD thesis on atmospheric chemistry and working as an air quality modelling specialist at the University of Wrocław. It taught me to plan my own projects while also working in a team. Working with a meteorological model and its output data gave me experience with bash scripting, R, vim and a little bit of python 2.7. I enjoy learning new technologies and tools and it comes to me easily.</p>
+        </div>
     </div>
 </section>
-
-
+<section>
+    <div class="about about-even">
+        <div class="about-text-even">
+            <h1>MY SKILLS</h1>
+        </div>
+        <img class="count count-even" src="css/IMG_9798.jpg">
+    </div>
+</section>
+</div>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
     window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
