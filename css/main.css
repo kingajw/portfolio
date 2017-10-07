@@ -107,6 +107,14 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+h1 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
 .next-section {
     display: inline-block;
     position: absolute;
@@ -121,7 +129,7 @@ body {
 
 a:link {
     text-decoration: none;
-    color: #fff;
+    color: #fafafa;
 }
 
 a:hover {
@@ -129,15 +137,15 @@ a:hover {
 }
 
 a:visited {
-    color: #fff;
+    color: #fafafa;
 }
 
 .summary {
-    width: 45%;
+    width: 45vw;
     background-color: rgba(255,255,255,0.7);
     text-align: left;
     font-size: large;
-    margin: 10% 10% 30% 10%;
+    margin: 10vw 10vw 30vw 10vw;
     padding: 2% 2% 2% 2%;
 }
 
@@ -149,13 +157,13 @@ a:visited {
 .about-odd {
     background-size: cover;
     background-color: #003;
-    color: #fff;
+    color: #fafafa;
     vertical-align: middle;
 }
 
 .about-even {
     background-size: cover;
-    background-color: #fff;
+    background-color: #fafafa;
     color: #003;
     vertical-align: middle;
 }
@@ -166,23 +174,23 @@ a:visited {
 }
 
 .count-odd {
-    margin: 10% 10% 0 0;
+    margin: 12vh 10% 0 0;
     float: right;
 }
 
 .count-even {
-    margin: 10% 10% 50% 10%;
+    margin: 12vh 10% 50% 10%;
     float: left;
 }
 
 .about-text-odd {
-    padding: 10% 0 0 10%;
+    padding: 10vh 0 0 10%;
     width: 50%;
     float: left;
 }
 
 .about-text-even {
-    padding: 10% 10% 0 0;
+    padding: 10vh 10% 0 0;
 }
 
 .logo {
@@ -191,31 +199,45 @@ a:visited {
 }
 
 .thumbnail {
-    width: 20%;
+    width: 20vw;
 }
 
 #contact-text {
-    padding: 5% 10% 0 30%;
+    padding: 5vh 10% 0 30%;
+}
+
+#contact-form {
+    float: left;
+    width: 70%;
+    height: inherit;
+    margin-left: 0;
 }
 
 #follow {
-    padding: 0 10% 0 30%;
+    float: left;
+    width: 30%;
+    display: block;
+    height: inherit;
 }
 
-.contact-form {
-    padding: 1% 0 1% 0;
+#no-dots {
+    list-style: none;
+}
+
+#no-dots li {
+    margin-bottom: 5%;
 }
 
 form {
-    margin: 0 30% 0 30%;
+    margin: 0 0 0 43%;
     border-radius: 10px;
     background-color: #003;
-    color: #fff;
+    color: #fafafa;
 }
 
 span, input, textarea {
-    width: 50%;
-    margin: 0.25% 25% 0.5% 25%;
+    width: 80%;
+    margin: 0.25% 10% 0.5% 10%;
     padding: 1% 1% 1% 1%;
     border-radius: 5px;
     border-width: 0;
@@ -228,23 +250,23 @@ span, input, textarea {
 }
 
 textarea {
-    min-height: 150px;
+    min-height: 80px;
 }
 
 #send-button {
-    color: #fff;
+    color: #fafafa;
     background-color: #003;
-    border: #fff solid thin;
+    border: #fafafa solid thin;
     cursor: pointer;
-    width: 52%;
+    width: 82%;
     border-radius: 5px;
     padding: 1.5% 0 1.5% 0;
-    margin: 0.25% 25% 1.5% 25%;
+    margin: 0.25% 10% 1.5% 10%;
 }
 
 #send-button:hover {
     color: #003;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 .social {
